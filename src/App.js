@@ -73,6 +73,7 @@ class App extends React.Component {
       console.log(newTasks)
       return {
         tasks: newTasks,
+        title: '',
       }
     })
 
